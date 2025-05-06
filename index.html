@@ -1,0 +1,201 @@
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jordan Anthony Lewis – IT Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background: #6711e0;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    header {
+      background: #6711e0;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background: white;
+      margin-bottom: 0.75rem;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact a {
+      color: #6711e0;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #ddd;
+      color: #333;
+    }
+
+    footer a {
+      color: #6711e0;
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+
+      header p {
+        font-size: 1rem;
+      }
+
+      li {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header>
+    <h1>Jordan Anthony Lewis</h1>
+    <p>IT Support | PowerShell | Cybersecurity | System Monitoring</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hi, I’m Jordan, a motivated and adaptable tech enthusiast with a solid foundation in both programming and IT. I’ve built personal projects in PowerShell, Python, and web development, but I also have real-world experience supporting users and solving problems under pressure.
+      </p>
+      <p>
+        My background includes working in fast-paced customer service environments, where I learned the importance of patience, clear communication, and delivering reliable solutions. Whether I’m helping someone reset their router, writing a script to streamline repetitive tasks, or building a web app, I bring the same focus and energy to getting things done right.
+      </p>
+      <p>
+        I’m now actively looking for an entry-level IT or technical support role where I can combine my technical skills, my experience working with people, and my drive to keep learning every day.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>PowerShell scripting</li>
+        <li>Cybersecurity (Nmap, Nessus, Wireshark)</li>
+        <li>Windows Server & Desktop Environments</li>
+        <li>Linux (Ubuntu/Kali)</li>
+        <li>Docker</li>
+        <li>Git</li>
+        <li>Python</li>
+        <li>SQL</li>
+        <li>WSL2</li>
+        <li>Continuously expanding my skill set</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>System Monitoring with Grafana & Prometheus</strong><br/>
+          Set up a full monitoring stack using Docker, Prometheus, and Grafana to track CPU, memory, and disk usage. Learned how to collect, visualize, and troubleshoot real-time system data.
+        </li>
+        <li>
+          <strong>PowerShell Automation Scripts</strong><br/>
+          Built a series of scripts to automate system backups, temp file cleanup, and report generation. These tools helped me practice real-world scripting while saving time on repetitive tasks.<br/>
+        </li>
+        <li>
+          <strong>Cybersecurity Mini-Lab</strong><br/>
+          Used Nmap and Wireshark in a home lab environment to scan for open ports and capture network traffic, gaining hands-on experience with basic ethical hacking techniques.
+        </li>
+        <li>
+          <strong>Portfolio Website (This Site!)</strong><br/>
+          Wrote this site using HTML and CSS to showcase my skills. Hosted on GitHub Pages and fully responsive. Also dabbling in JavaScript and exploring frameworks.
+        </li>
+        <li>
+          <strong>PintOS Operating System</strong><br/>
+          Developed and implemented core components of the PintOS operating system kernel using C, including memory management, thread synchronization, and file systems. Utilized Git for version control and Docker for containerized development, improving workflow and ensuring consistent build environments across the team.
+        </li>
+        <li>
+          <strong>Machine Learning Project</strong><br/>
+          Collaborated to develop a machine learning model for predicting gas prices using Python, TensorFlow, and Pandas.
+        </li>
+        <li>
+          <strong>Docker & Virtual Machine Setup for Online Game Servers</strong><br/>
+          Set up and maintained a Docker and virtual machine environment for hosting online game servers in a class project.
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>Email: jordan.lewis2@live.longwood.edu</p>
+      <p>GitHub: <a href="https://github.com/Gord-d" target="_blank">https://github.com/Gord-d</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/jordan-lewis-148710264" target="_blank">https://linkedin.com/in/jordan-lewis-148710264</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Template by <a href="https://html5up.net" target="_blank">HTML5 UP</a>, modified by Jordan Lewis.</p>
+  </footer>
+</body>
+</html>
